@@ -28,6 +28,7 @@ h2 {
   color: #393939;
 }
 
+
 h3, h4, h5, h6 {
   color: #494949;
 }
@@ -95,7 +96,7 @@ img {
 }
 
 header {
-  width: 30%;
+  width: 25%;
   float: left;
   position: fixed;
 }
@@ -117,7 +118,7 @@ header ul {
   border-radius: 5px;
   border: 1px solid #d2d2d2;
   box-shadow: inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-  width: 270px;
+  width: 180px;
 }
 
 header li {
@@ -159,7 +160,7 @@ header ul a strong {
 }
 
 section {
-  width: 65%;
+  width: 70%;
   float: right;
   padding-left: 50px;
   padding-bottom: 50px;
@@ -182,6 +183,29 @@ footer {
   position: fixed;
   bottom: 50px;
 }
+
+/*
+ ******************************************************************************
+ * User defined
+ */
+
+section h2 {
+  border-top: 1px dashed gray;
+  padding-top: 20px;
+}
+
+.octicon-link {
+  float: right;
+}
+
+.contact {
+  border-top: 1px dashed gray;
+  padding-top: 20px;
+}
+
+/*
+ ******************************************************************************
+ */
 
 @media print, screen and (max-width: 960px) {
   
